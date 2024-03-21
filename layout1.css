@@ -1,0 +1,25 @@
+header, nav, footer, .container div{
+    height: 10vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(184, 219, 172);
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New';
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container div {
+    width: 100%;
+    height: 65vh;
+}
